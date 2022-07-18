@@ -1,0 +1,21 @@
+list1=list()
+list2=list()
+n1=int(input('enter no.of elements in list1'))
+n2=int(input('enter no.of elements in list 2'))
+for i in range(n1):
+	list1.append(input('enter element:{}'.format(i+1)))
+print('enter elements of list2')
+for i in range(n2):
+	list2.append(input('enter element:{}'.format(i+1)))
+print(list1)
+print(list2)
+for i in list1:
+	for j in list2:
+		if i==j:
+			list1.remove(j)
+print("color1-color2",list1)
+for i in list2:
+	for j in list1:
+		if i==j:
+			list2.remove(j)
+print("color2-color1",list2)

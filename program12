@@ -1,0 +1,6 @@
+def htmltag(tag,body):
+	print('<{}>{}</{}>'.format(tag,body,tag))
+string1=input('enter tag element')
+tag=string1.upper()
+body=input("enter body")
+htmltag(tag,body)

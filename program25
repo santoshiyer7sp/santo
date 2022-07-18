@@ -1,0 +1,14 @@
+list1=list()
+list2=list()
+n1=int(input('enter no.of elements in list1'))
+n2=int(input('enter no.of elements in list2'))
+print('enter elements of list1')
+for i in range(n1):
+	list1.append(input('enter element{}:'.format(i+1)))
+print('enter elements of list2')
+for i in range(n2):
+	list2.append(input('enter element{}:'.format(i+1)))
+list1.remove(list1[-1])
+for i in range(n2):
+	list1.append(list2[i])
+print(list1)

@@ -1,0 +1,9 @@
+f1=open("file1.txt","r")
+t=f1.readlines()
+for i in t:
+  max=' '
+  for j in i.split():
+    if(len(j)>len(max)):
+      max=j
+  print("The content in the file:",i)
+  print("Maximum length of the word ",max)

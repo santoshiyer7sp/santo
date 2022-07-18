@@ -1,0 +1,4 @@
+#to get the maximum in the dictinoary 
+my_list={'item1':45,'item2':55,'item3':75,'item4':90}
+max_value = max(my_list, key=my_list.get)
+print("Maximum is ",max_value)

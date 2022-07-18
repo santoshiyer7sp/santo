@@ -1,0 +1,5 @@
+string1=input("enter string to reverse")
+string2=string1.split()
+string2.reverse()
+for i in string2:
+	print(i,end=" ")

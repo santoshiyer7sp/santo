@@ -1,0 +1,7 @@
+import random
+f1=open("file1.txt",'r')
+t=f1.readlines()
+print(random.choice(t))
+print("Content in the file is")
+for i in t:
+  print(i)

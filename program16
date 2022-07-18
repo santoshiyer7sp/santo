@@ -1,0 +1,4 @@
+import math
+n=int(input("enter a number:"))
+square=math.sqrt(n)
+print("the square root of entered number is:",square)

@@ -1,0 +1,11 @@
+list1=list()
+list2=list()
+n1=int(input('enter no.of elements in tuple'))
+for i in range(n1):
+	list1.append(input('enter element{}:'.format(i+1)))
+tuple1=tuple(list1)
+for i in tuple1:
+	n2=tuple1.count(i)
+	if n2>1:
+		list2.append(i)
+print(list2)
